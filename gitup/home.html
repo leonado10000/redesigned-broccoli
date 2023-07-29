@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+            margin: 0px;
+        }
+        #name{
+            margin: 5px;
+            margin-left: 3.5%;
+            margin-top: 3%;
+            font-size: 40px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 100;
+            -webkit-text-fill-color: rgba(240, 248, 255, 0.503);
+            letter-spacing: .001px;
+            word-spacing: 5px;
+        }
+        #menu{
+            /* background-image: linear-gradient(90deg,rgb(0, 0, 0) 0%, rgba(79, 79, 79, 0.497) 75%, rgba(255, 255, 255, 0) 75%); */
+        }
+        #menu-img{
+            height: 900px;
+            width: 100%;
+            position: absolute;
+            background-image: url("menu.png");
+            opacity: .1;
+            background-repeat: no-repeat;
+            background-position: 50px 20px;
+            ;
+        }
+        .items{
+            width: 100px;
+            height: 100px;
+            /* background-color: rgb(240, 255, 255); */
+            margin: 15%;    
+            margin-left: 25%;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 100;
+            -webkit-text-fill-color: rgba(240, 248, 255, 0.503);
+        }
+    </style>
+</head>
+<body>
+    <div id="name">MVIT CANTEENZ</div>
+
+    <!-- DESIGN STANDARD IS FROM CHROME INSPECT  MOBILE-L -->
+
+    <div id="places">
+        <style>
+            #places{
+                height: 500px;
+                margin: 25px;
+                background-color: rgba(14, 29, 58, 0.44);
+                padding-top: 10px;
+            }
+            #p-names{
+                height: 40px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                -webkit-text-fill-color: rgba(250, 235, 215, 0.407);
+                font-size: 24px;
+                font-weight: 100;
+                margin-left: 5%;
+            }
+        </style>
+        <div id="p-names">Personalities</div>
+    </div>
+
+    <div id="menu">
+        <style>
+        #item-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .items img{
+            max-height: 150px;
+            border-radius: 50%;
+        }
+        #menu-img{
+            top: 650px;
+        }
+        .items{
+        width: 200px;
+        height: 200px;
+        /* background-color: rgb(240, 255, 255); */
+        margin: 15%;
+        margin-left: 15%;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 100;
+        -webkit-text-fill-color: rgba(240, 248, 255, 0.503);
+    }
+        </style>
+        <div id="item-grid">
+            <div class="items"><img src="food\puri.png" alt=""></div>
+            <div class="items"><img src="food\egg_paratha.png" alt=""></div>
+            <div class="items">Item Type</div>
+            <div class="items">Item Type</div>
+            <div class="items">Item Type</div>
+            <div class="items">Item Type</div>
+        </div>
+        <div id="menu-img"></div>
+    </div>
+</body>
+</html>
